@@ -21,7 +21,7 @@ app.get('/palettes', function (req, res) {
 });
 
 app.get('/strings', function (req, res) {
-  return res.send(STRINGS[locale]);
+  return res.send(STRINGS);
 });
 
 app.get('/strings/:locale', function (req, res) {
