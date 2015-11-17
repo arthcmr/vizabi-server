@@ -20,6 +20,10 @@ app.get('/palettes', function (req, res) {
   return res.send(PALETTES);
 });
 
+app.get('/strings', function (req, res) {
+  return res.send(STRINGS[locale]);
+});
+
 app.get('/strings/:locale', function (req, res) {
   var locale = req.param('locale');
   if (!STRINGS[locale]) return res.send(STRINGS);
