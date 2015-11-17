@@ -1,0 +1,17 @@
+{
+  "name": "VzbServerTest",
+  "version": "0.0.1",
+  "description": "VzbServerTest",
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {},
+  "author": "Arthur Camara",
+  "devDependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.13.1",
+    "minimist": "^1.1.2",
+    "q": "^1.4.1",
+    "request": "~2.60.0"
+  }
+}
